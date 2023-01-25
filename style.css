@@ -12,9 +12,10 @@
     --bg-button-color: #8257e5;
   }
 
-body{
+#main{
     background-color: var(--body-bg-color);
-    background-size: 50vw;
+    width: 50vw;
+    height: 100vh;
 }
 
 #logo{
@@ -103,5 +104,12 @@ a{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
+}
+
+body{
+    background-image: url("./assets/read_news.jpg");
+    background-position: center right;
+    background-size: 74%;
+    background-repeat: no-repeat;
 }
 
